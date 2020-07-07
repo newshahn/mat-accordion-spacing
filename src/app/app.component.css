@@ -1,0 +1,13 @@
+section {
+  min-height: 100vh;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mat-accordion .mat-expansion-panel:not(.mat-expanded),
+.mat-accordion .mat-expansion-panel:not(.mat-expansion-panel-spacing) {
+  margin-bottom: 20px;
+}
